@@ -7,29 +7,29 @@ int main()
     int minimum;
 
     // max
-    if (a > b && a > c)
+    if (a >= b && a >= c)
     {
         max = a;
     }
-    else if (b > a && b > c)
+    else if (b >= a && b >= c)
     {
         max = b;
     }
-    else
+    else if (c >= a && c >= b)
     {
         max = c;
     }
 
     // min
-    if (a < b && a < c)
+    if (a <= b && a <= c)
     {
         minimum = a;
     }
-    else if (b < a && b < c)
+    else if (b <= a && b <= c)
     {
         minimum = b;
     }
-    else
+    else if (c <= a && c <= b)
     {
         minimum = c;
     }
