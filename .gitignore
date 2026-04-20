@@ -1,0 +1,12 @@
+# Ignore everything in the root
+*
+
+# Do NOT ignore directories
+!*/
+
+# Do NOT ignore source, headers, or config files
+!*.c
+!*.h
+!Makefile
+!.gitignore
+!README.md
